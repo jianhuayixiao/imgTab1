@@ -1,0 +1,13 @@
+body{ background-color: #cce8cf; }
+body, h2, ul{ margin: 0; }
+ul{ padding-left: 0; }
+li{ list-style: none outside; }
+img{ border: none; display: block; }
+.wrap{ width: 300px; height: 200px; position: relative; overflow: hidden; border: 4px solid gray; }
+.wrap img{ width: 100%; }
+.wrap li{ position: absolute; display: none; width: 100%; }
+.wrap li.cur{ display: list-item; }
+.direction{ overflow: hidden; }
+.direction li{ float: left; }
+.direction li a{ display: block; border: 1px solid gray; width: 75px; height: 20px; text-align: center; line-height: 20px; font: 14px "Microsoft YaHei"; background-color: black; color: white; }
+
